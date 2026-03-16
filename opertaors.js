@@ -1,6 +1,6 @@
-let a = 5;
-let b = 2;
-console.log ("a =", a, "b =", b);
+// let a = 5;
+// let b = 2;
+// console.log ("a =", a, "b =", b);
 
 // arithmetic operators
 // console.log("a + b =", a + b); // addition
@@ -47,6 +47,11 @@ console.log ("a =", a, "b =", b);
 // console.log("a <= b:", a <= b); // less than or equal to 
 
 // logical operators
-console.log("cond1 && cond2:", a > b &&  a === 5); // logical AND
-console.log("cond1 || cond2:", a < b || a === 5); // logical OR
-console.log("!cond1:", !(a === 9)); // logical NOT
+// console.log("cond1 && cond2:", a > b &&  a === 5); // logical AND
+// console.log("cond1 || cond2:", a < b || a === 5); // logical OR
+// console.log("!cond1:", !(a === 9)); // logical NOT
+
+//  ternary operator
+let age = 25;
+let result= age >=18 ? "adult":"not adult"; // ternary operator
+console.log(result);
