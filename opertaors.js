@@ -52,6 +52,6 @@
 // console.log("!cond1:", !(a === 9)); // logical NOT
 
 //  ternary operator
-let age = 25;
-let result= age >=18 ? "adult":"not adult"; // ternary operator
-console.log(result);
+// let age = 25;
+// let result= age >=18 ? "adult":"not adult"; // ternary operator
+// console.log(result);
