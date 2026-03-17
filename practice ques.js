@@ -24,3 +24,23 @@
 // } else {
 //     console.log("Invalid score. Please enter a score between 0 and 100.");
 // }
+
+// loops
+
+// print all even numbers from 0 to 100
+// for (i = 0; i<=100; i++){
+//     if (i % 2 ===0){
+//         console.log(i);
+
+//     }
+   
+// }
+
+
+// create a game where you start with any random game numbers ask the user to keep guessing the game number until the user enters correct value.
+let gameNum = 25;
+let userNum = prompt("Guess the game number:");
+while (userNum != gameNum){
+    userNum = prompt("You entered wrong number.Guess the game number:");
+}
+console.log("Congratulations! You guessed the correct number.");
