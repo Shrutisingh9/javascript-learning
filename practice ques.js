@@ -38,9 +38,9 @@
 
 
 // create a game where you start with any random game numbers ask the user to keep guessing the game number until the user enters correct value.
-let gameNum = 25;
-let userNum = prompt("Guess the game number:");
-while (userNum != gameNum){
-    userNum = prompt("You entered wrong number.Guess the game number:");
-}
-console.log("Congratulations! You guessed the correct number.");
+// let gameNum = 25;
+// let userNum = prompt("Guess the game number:");
+// while (userNum != gameNum){
+//     userNum = prompt("You entered wrong number.Guess the game number:");
+// }
+// console.log("Congratulations! You guessed the correct number.");
