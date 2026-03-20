@@ -44,3 +44,10 @@
 //     userNum = prompt("You entered wrong number.Guess the game number:");
 // }
 // console.log("Congratulations! You guessed the correct number.");
+
+// Strings
+// Promt th user to enter their full name. Generate a username for them based on the input. Start username with @, followed bt their full nume and ending with the fullname length. For example, if the user enters "Shruti Singh", the generated username should be "@ShrutiSingh12".
+
+// let fullName= prompt("enter your Full Name with out any spaces: ");
+// let username = "@" + fullName + fullName.length;
+// console.log("Your generated username is: " + username);
