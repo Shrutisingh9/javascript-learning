@@ -51,3 +51,57 @@
 // let fullName= prompt("enter your Full Name with out any spaces: ");
 // let username = "@" + fullName + fullName.length;
 // console.log("Your generated username is: " + username);
+
+// Arrays
+// For a given array with marks of students ->[85, 97, 44, 37, 76, 60] Find the average marks of the entire class.
+
+// let marks = [85, 97, 44, 37, 76, 60];
+
+// let sum = 0;
+
+// for (let mark of marks){
+//     sum += mark;
+// }
+// console.log(sum);
+
+// let avg = sum / marks.length;
+// console. log(`The average marks of the class is: ${avg}.`);
+
+// For a given array with prices of 5 items -> [250, 645, 300, 900, 50] all items have an offer of 10% OFF on them.Change the array to store final price after applying offer.
+
+// let prices = [250, 645, 300, 900, 50];
+
+// method 1 using for loop
+// for (let i = 0; i < prices.length; i++) {
+//     let ofer = prices[i] / 10; // Calculate 10% of the price
+//     prices[i] -= ofer; // Update the price after applying the offer
+// }
+
+// console.log("Final prices after applying 10% discount:");
+// console.log(prices);
+
+// // method 2 using for of loop
+// let i  =0 ;
+// for (let val of prices){
+//     console.log(`Value at index ${i}: ${val}`);
+//     let offer = val/10; 
+//     prices[i] = prices[i] - offer;
+//     console.log(`value after offer = ${prices[i]}`);
+//     i++;
+// }
+
+// Create an array to store companies -> "Bloomberg", "Microsoft", "Uber","Google", "IBM", "Netflix"
+// a. Remove the first company from the array
+// b. Remove Uber & Add Ola in its place
+// c. Add "Amazon" at the end
+
+// let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// console.log(companies);
+// // a. Remove the first company from the array
+// companies.shift();
+// // b. Remove Uber & Add Ola in its place
+// companies.splice(2, 1, "Ola");
+// // c. Add "Amazon" at the end
+// companies.push("Amazon");
+
+// console.log(companies);
