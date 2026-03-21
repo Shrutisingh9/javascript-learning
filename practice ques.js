@@ -105,3 +105,34 @@
 // companies.push("Amazon");
 
 // console.log(companies);
+
+
+// Functions
+// Create a fucntion using the "function" keyword that takes a string as an argument and returns the number of vowels in the string.
+
+// function countVowels(str){
+//     let count = 0;
+//     let vowels = "AEIOUaeiou";
+//     for (const char of str){
+//         if (vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
+// countVowels("Shruti Singh");
+
+// // using arrow fucntion 
+// const countVow = (str) =>{
+//     let count = 0;
+//     let vowels = "AEIOUaeiou";
+//     for (const char of str){
+//         if (vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+
+// countVow("Shruti Singh");
