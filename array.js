@@ -67,3 +67,27 @@
 
 // arr.splice(2,2, 101, 102)
 // console.log(arr); // Output: [1, 2, 101, 102, 5, 6, 7]
+
+// forEach() method executes a provided function once for each array element
+// let arr = [1, ,2 ,3, 4, 5];
+// arr.forEach(function printval(val){ 
+//     console.log(val);
+// })
+
+// arrow func
+// arr.forEach((val) => {
+//     console.log(val);
+// });
+
+// let city = ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata"];
+// city.forEach((val, index, city) =>{
+//     console.log(val.toUpperCase(), index, city);
+// })
+
+// map() method creates a new array populated with the results of calling a provided function on every element in the calling array
+// let nums = [1, 2, 3, 4, 5];
+// let newArr =nums.map((val) =>{
+//     return val;
+// });
+
+// console.log(newArr);
