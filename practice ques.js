@@ -139,7 +139,40 @@
 
 // For a given array of numbers, print the square of each value using the forEach loop.
 
-let num = [23, 34, 56, 67, 79, 36];
-num.forEach ((num) =>{
-    console.log(num * num);
-});
+// let num = [23, 34, 56, 67, 79, 36];
+// num.forEach ((num) =>{
+//     console.log(num * num);
+// });
+
+// We are given array of marks of student.Filter out the marks of students that scored 90+.
+// let marks = [85, 97, 44, 37, 76, 60, 92, 88, 95, 91];
+// let highMarks = marks.filter( (marks) =>{
+//     return marks > 90;
+// })
+// console.log(highMarks);
+
+// Ṭake a number n as input from user.Create an array of numbers from 1 to n. Use the reduce to calculate sum of all numbers in the array. use the reduce method to calculate product of all numbers in the array.
+
+// let n = prompt("Enter a number: ");
+// let arr = [];
+
+// for (let i = 1; i <= n; i++) {
+//     arr[i-1] = i ;
+// }
+
+// console.log(arr);
+
+// // calculate sum  using reduce
+
+// let sum = arr.reduce((acc, cur) =>{
+//     return acc + cur
+// });
+
+// console.log("sum = ",sum);
+
+// // calculate product using reduce
+// let product = arr.reduce ((acc, cur) =>{
+//     return acc*cur
+// });
+
+// console.log("product = ",product);
