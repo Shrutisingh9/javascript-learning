@@ -187,13 +187,13 @@
 
 // Create 3 divswith common class name - "box". Access them & add some unique test to each of them.
 
-let divs = document.querySelectorAll(".box");
-console.log(divs);
-let idx = 1;
-for (div of divs){
-    div.innerText = `new unique values ${idx}`;
-    idx++;
-}
+// let divs = document.querySelectorAll(".box");
+// console.log(divs);
+// let idx = 1;
+// for (div of divs){
+//     div.innerText = `new unique values ${idx}`;
+//     idx++;
+// }
 
 //  divs[0].innerText = "This is the first box.";
 //  divs[1].innerText = "This is the second box.";

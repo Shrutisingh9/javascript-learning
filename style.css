@@ -16,3 +16,11 @@
     margin: 5px;    
     text-align: center;
 }
+
+#box{
+    height: 100px;
+    width: 100px;   
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+}

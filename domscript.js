@@ -36,3 +36,25 @@
 // div.innerText = "This is a div element"
 // console.log(div.innerHTML)
 
+// Attributes
+// get attribute
+
+let div = document.querySelector("div");
+console.log(div);
+
+let id = div.getAttribute("id");
+console.log(id);
+
+let name = div.getAttribute("name");
+console.log(name);
+
+let p = document.querySelector(".para");
+console.log(p.getAttribute("class"));
+
+// set attribute
+console.log(p.setAttribute("class", "newClass"));
+
+// node Style
+let d = document.querySelector("div");
+console.log(d.style);
+d.style.backgroundColor = "blue";
