@@ -18,9 +18,21 @@
 }
 
 #box{
-    height: 100px;
+    height: 300px;
     width: 100px;   
     color: white;
     background-color: green;
     border: 1px solid black;
+}
+
+/* Dom practice question  */
+.content{
+    background-color: lightgray;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.newClass{
+    background-color: lightblue;
+
 }

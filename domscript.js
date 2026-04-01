@@ -39,22 +39,48 @@
 // Attributes
 // get attribute
 
-let div = document.querySelector("div");
-console.log(div);
+// let div = document.querySelector("div");
+// console.log(div);
 
-let id = div.getAttribute("id");
-console.log(id);
+// let id = div.getAttribute("id");
+// console.log(id);
 
-let name = div.getAttribute("name");
-console.log(name);
+// let name = div.getAttribute("name");
+// console.log(name);
 
-let p = document.querySelector(".para");
-console.log(p.getAttribute("class"));
+// let p = document.querySelector(".para");
+// console.log(p.getAttribute("class"));
 
-// set attribute
-console.log(p.setAttribute("class", "newClass"));
+// // set attribute
+// console.log(p.setAttribute("class", "newClass"));
 
-// node Style
-let d = document.querySelector("div");
-console.log(d.style);
-d.style.backgroundColor = "blue";
+// // node Style
+// let d = document.querySelector("div");
+// console.log(d.style);
+// d.style.backgroundColor = "blue";
+
+// Insert Element
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me";
+
+// console.log(newBtn);
+
+// // node.append() - Adds at the end of the node(inside)
+
+// let div = document.querySelector("div");
+// div.append(newBtn);
+
+// // node.prepend() - Adds at the beginning of the node(inside)
+// div.prepend(newBtn);
+
+// // node.before() - Adds before the node(outside)
+// div.before(newBtn);
+
+// // node.after() - Adds after the node(outside)
+// div.after(newBtn);
+
+// // Delete Element
+// // node.remove() - remove the node 
+
+// let para = document.querySelector("p");
+// para.remove();

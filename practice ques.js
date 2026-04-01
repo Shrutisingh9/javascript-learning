@@ -198,3 +198,20 @@
 //  divs[0].innerText = "This is the first box.";
 //  divs[1].innerText = "This is the second box.";
 //  divs[2].innerText = "This is the third box.";
+
+// Create a new Button element. Give it a text "Click Me", background color of red and text color of white.  Insert the button as the first element inside the body tag.
+
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me";
+// newBtn.style.backgroundColor = " red";
+// newBtn.style.color = "White";
+
+// console.log(newBtn);
+
+// document.querySelector("body").prepend(newBtn);
+
+// Create a <p> tag in html, give it a class and some styling. Now create a new class in css and try to append this class to the <p> element. use ClassList property to solve this problem.
+
+let para = document.querySelector("p");
+console.log(para);
+para.classList.add("newClass");
