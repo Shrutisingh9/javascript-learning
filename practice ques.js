@@ -212,6 +212,24 @@
 
 // Create a <p> tag in html, give it a class and some styling. Now create a new class in css and try to append this class to the <p> element. use ClassList property to solve this problem.
 
-let para = document.querySelector("p");
-console.log(para);
-para.classList.add("newClass");
+// let para = document.querySelector("p");
+// console.log(para);
+// para.classList.add("newClass");
+
+// events
+// create a toggle button that changes the screen to darkmode whwn clicked and lisght mode when clicked again.
+
+// let toggleBtn = document.querySelector("#toggleBtn");
+// let curMode = "light";
+
+// toggleBtn.addEventListener("click", () =>{
+//     console.log("you are tryingto change mode");
+//     if(curMode === "light"){
+//         curMode = "dark";
+//         document.body.style.backgroundColor = "black";
+//     } else {
+//         curMode = "light";
+//         document.body.style.backgroundColor = "white";
+//     }
+//     console.log("current mode is: ", curMode);
+// });
