@@ -233,3 +233,34 @@
 //     }
 //     console.log("current mode is: ", curMode);
 // });
+
+// classes and objects
+// You are creating a website for your college., Create a class User with 2 properties, name and email. it also has a method class viewData() that allows user to view website data.
+// let DATA = "Secret information about the website. Only authorized users can view this data.";
+// class User{
+//     constructor(name, email){
+//         this.name = name;
+//         this.email = email;
+//     }
+//     viewData(){
+//         console.log("data = ", DATA);
+//     }
+// }
+
+// let student1 = new User("Shruti Singh", "shruti@email.com"); 
+// let student2 = new User("John Doe", "john@email.com"); 
+
+// let teacher1 = new User("Dean", "dean@email.com");
+
+// Create a new class called Admin which inherits from User, Add a new method called editData to Admin that allows it to edit website data.
+
+// class Admin extends User{
+//     constructor(name, email){
+//         super(name, email); 
+//     }
+//     editData(){
+//         DATA ="new data edited by admin.";
+//     }
+// }
+
+// let admin1 = new Admin("admin", "admin@college.com");
