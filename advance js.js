@@ -114,27 +114,97 @@
 // });
 
 
-function getData(dataId, getNextData){
-    return new Promise ((resolve, reject) =>{
-         setTimeout(()=>{
-        console.log("data", dataId);
-        resolve("success")
-        // reject("error")
-        if(getNextData){
-            getNextData();
-        }
+// function getData(dataId, getNextData){
+//     return new Promise ((resolve, reject) =>{
+//          setTimeout(()=>{
+//         console.log("data", dataId);
+//         resolve("success")
+//         // reject("error")
+//         if(getNextData){
+//             getNextData();
+//         }
         
-    }, 2000);
-});
-}
+//     }, 2000);
+// });
+// }
 
-getData(1)
-    .then((res) =>{
-        return getData(2);
-    })
-    .then((res) =>{
-        return getData(3); 
-    })
-    .then ((res) =>{
-        console.log(res);
-    });
+// getData(1)
+//     .then((res) =>{
+//         return getData(2);
+//     })
+//     .then((res) =>{
+//         return getData(3); 
+//     })
+//     .then ((res) =>{
+//         console.log(res);
+//     });
+
+// Async Await
+// async function hello(){
+//     console.log("hello")
+// }
+
+
+// function api(){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             console.log("weather data"); 
+//             resolve(200);
+//         }, 2000)
+//     });
+// }
+
+// async function getWeatherData(){
+//     await api(); //1st call
+//     await api(); //2st call
+
+// }
+
+
+// function getData(dataId){
+//     return new Promise ((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("success")
+//             // reject("error")
+//     }, 2000);
+// });
+// }
+
+// async function getAllData(){
+//     console.log("getting data 1....");
+//     await getData(1);
+//     console.log("getting data 2....");
+//     await getData(2);
+//     console.log("getting data 3....");
+//     await getData(3);
+//     console.log("getting data 4....");
+//     await getData(4);
+//     console.log("getting data 5....");
+//     await getData(5);
+//     console.log("getting data 6....");
+//     await getData(6);
+// }
+
+
+
+// IIFE : Immediately Invoked Function Expression 
+
+// function getData(dataId){
+//     return new Promise ((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("success")
+//             // reject("error")
+//     }, 2000);
+// });
+// }
+
+// (async function (){
+//     console.log("getting data 1....");
+//     await getData(1);
+//     console.log("getting data 2....");
+//     await getData(2);
+//     console.log("getting data 3....");
+//     await getData(3);
+// })();
